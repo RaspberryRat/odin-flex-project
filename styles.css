@@ -67,7 +67,8 @@ a {
   font-size: 18px;
 }
 
-.button {
+.button,
+.button-2 {
   background-color: #3882F6;
   padding: 8px 16px;
   border-radius: 8px;
@@ -89,6 +90,9 @@ a {
   flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
+  height: 350px;
+  flex: 1;
+  margin-bottom: 100px;
 }
 
 .cards {
@@ -97,8 +101,87 @@ a {
   width: 200px;
 }
 
+.card-box {
+  display: flex;
+  flex-flow: column wrap;
+  width: 200px;
+  
+}
+
+.card-text {
+  color: #465263;
+  font-weight: lighter;
+  margin-top: 16px;
+}
+
 .info-title {
   color: #1F2937;
   font-weight: bolder;
   font-size: 36px;
+}
+
+.quote-container {
+  display: flex;
+  height: 350px;
+  background-color: #E5E7EB;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  text-align: center;
+  width: 600px;
+}
+
+.quote-attribution {
+  text-align: right;
+  padding-left: 350px;
+}
+
+.button-section {
+  display: flex;
+  height: 350px;
+  width: auto;
+  align-items: center;
+  justify-content: center; 
+  padding: 100px;
+}
+
+.button-container {
+  background-color: #3882F6;
+  border-radius: 15px;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  width: 1000px;
+}
+
+.text-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.call-to-action-title,
+.call-to-action-action,
+.button-2,
+.button {
+  color: #F9FAf8;
+}
+
+.button-2 {
+  border: 1px solid #F9FAf8;
+  padding: 8px 30px;
+}
+
+.call-to-action-title {
+  font-weight: bolder;
 }
