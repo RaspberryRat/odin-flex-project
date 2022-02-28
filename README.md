@@ -7,3 +7,4 @@ robot-1.jpg Photo by Alex Knight from Pexels
 girl-1.jpg Photo by Ali Pazani from Pexels
 electric-1.jpg Photo by Ali Pazani from Pexels
 astronaut-1.jpg Photo by Mikhail Nilov from Pexels
+lightning-logo.jpg Photo by Luis Miguel P. Bonilla from Pexels
