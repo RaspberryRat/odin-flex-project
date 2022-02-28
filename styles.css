@@ -54,7 +54,9 @@ a {
   padding: 20px;
   gap: 20px;
   align-items: flex-start;
-  max-width: 33%;
+  flex-basis: 500px; /* original had this as max-width 33% to get formatting right, but cause
+   photo to overlap text when window was shrunk, changed to flex basis and now image does not overlap
+   text boxes when window shrunk*/
 }
 
 .intro-header {
